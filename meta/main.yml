@@ -1,0 +1,30 @@
+---
+galaxy_info:
+  author: drewgwallace
+  description: Create single pod containing Unifi controller.
+  galaxy_tags:
+    - k8s
+    - kubernetes
+    - wireless
+    - unifi
+    - containers
+    - automation
+    - ubiquiti
+  license: MIT
+  min_ansible_version: 2.5
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Generic
+      versions:
+        - all
+    - name: GenericLinux
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
