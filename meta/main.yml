@@ -28,3 +28,4 @@ galaxy_info:
     - name: Fedora
       versions:
         - all
+  role_name: k8s_deployment_unifi_controller
