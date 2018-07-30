@@ -1,4 +1,9 @@
 ---
+# Purpose: Default vars for role
+# Last Updated: 2018.07.30
+# Notes:
+
+
 database_dir: /opt/data/unifi/database/
 
 log_dir: /opt/data/unifi/logs/
