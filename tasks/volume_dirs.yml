@@ -1,0 +1,9 @@
+---
+- name: "Updating local volume directories"
+  file:
+    path: "{{ item }}"
+    state: directory
+    mode: 0777
+  with_items:
+    - "{{ database_dir }}"
+    - "{{ log_dir }}"

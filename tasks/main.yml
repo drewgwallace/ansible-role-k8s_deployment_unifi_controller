@@ -1,3 +1,6 @@
 ---
 
+- include_tasks: volume_dirs.yml
+
 - include_tasks: unifi.yml
+  run_once: true

@@ -1,5 +1,10 @@
 ---
+database_dir: /opt/data/unifi/database/
+
+log_dir: /opt/data/unifi/logs/
 
 namespace: default
 
 url: unifi.example.com
+
+url_secret: "{{ url }}-secret"
