@@ -1,4 +1,11 @@
 ---
+# Purpose: Check volume directories and ensure they will
+#            be writeable by the unifi user that the
+#            primary services run under
+# Last Updated: 2018.07.30
+# Notes:
+
+
 - name: "Updating local volume directories"
   file:
     path: "{{ item }}"
