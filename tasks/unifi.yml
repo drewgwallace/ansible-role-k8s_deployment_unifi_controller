@@ -1,4 +1,8 @@
 ---
+# Purpose: Invoke templates and create unifi deployment
+# Last Updated: 2018.07.30
+# Notes:
+
 - name: "Create unifi deployment"
   local_action:
     module: k8s
