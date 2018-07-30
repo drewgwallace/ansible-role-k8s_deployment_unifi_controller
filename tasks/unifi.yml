@@ -59,10 +59,12 @@
             volumes:
             - name: unifi-database-vol
               hostPath:
+              # Make sure these directories have write permissions by the unifi user (e.g. chmod 777 database/)
                 path: /opt/data/unifi/database
                 type: DirectoryOrCreate
             - name: unifi-log-vol
               hostPath:
+              # Make sure these directories have write permissions by the unifi user (e.g. chmod 777 logs/)
                 path: /opt/data/unifi/logs
                 type: DirectoryOrCreate
 - name: "Create unifi service"
